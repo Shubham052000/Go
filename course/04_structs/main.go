@@ -14,7 +14,6 @@ type person struct {
 }
 
 func main() {
-	// alex := person{"Shubham", "Satyawali"}
 	// shubh := person{
 	// 	firstName: "Shubham",
 	// 	lastName:  "Satyawali",
@@ -27,6 +26,8 @@ func main() {
 	var alex person
 	alex.firstName = "Alex"
 	alex.lastName = "Anderson"
+	alex.contact.email = "alex@alex.com"
+	alex.contact.zipCode = 222222
 
 	// shubh.print()
 	// alexPointer := &alex

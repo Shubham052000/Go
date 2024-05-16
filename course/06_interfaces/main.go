@@ -22,11 +22,11 @@ func printGreeting(b bot) {
 }
 
 func (englishBot) getGreeting() string {
-	return "Hello there"
+	return "Hello there!"
 }
 
 func (spanishBot) getGreeting() string {
-	return "Hello there"
+	return "Hola!"
 }
 
 // func printGreeting(eb englishBot) {
